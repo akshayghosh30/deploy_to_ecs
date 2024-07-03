@@ -8,7 +8,7 @@
             "portMappings": [
                 {
                     "name": "nodejs-app-5000-tcp",
-                    "containerPort": 5001,
+                    "containerPort": 5000,
                     "hostPort": 5000,
                     "protocol": "tcp",
                     "appProtocol": "http"
@@ -37,7 +37,7 @@
     "taskRoleArn": "arn:aws:iam::992382817632:role/EcsTaskExectutionRole",
     "executionRoleArn": "arn:aws:iam::992382817632:role/EcsTaskExectutionRole",
     "networkMode": "awsvpc",
-    "revision": 1,
+    "revision": 2,
     "volumes": [],
     "status": "ACTIVE",
     "requiresAttributes": [
